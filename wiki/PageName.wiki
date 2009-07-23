@@ -1,0 +1,7 @@
+#summary New release 1.2.2
+
+= New release - 1.2.2 =
+
+  * IPv4 works now via tun by default. Use '-L' option to get old loopback route.
+  * Added host probing by ping when arp_get() fails.
+  * Added tcp window size to tcp_chaff module.
